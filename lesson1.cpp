@@ -11,8 +11,15 @@ int main()
 {
 	int an_integer_variable = 1;
 
+	if (an_integer_variable % 2 == 0) {
+		std::cout << "a value of an_integer_variable is even" << std::endl;
+	}
+	else {
+		std::cout << "a value of an_integer_variable is odd" << std::endl;
+	}
+
 	if (an_integer_variable == 1) {
-		std::cout << "an_integer_variable is equal to 1";
+		std::cout << "an_integer_variable is equal to 1" << std::endl;
 	}
 	for (int i = 0; i < 10; i = i + 1) {
 		std::cout << i << std::endl;
